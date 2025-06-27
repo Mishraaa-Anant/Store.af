@@ -155,7 +155,7 @@ function checkCartPage(total, totalQuantity) {
 function displayInCartPage(total) {
     let subTotal = document.getElementById("Subtotal");
     subTotal.innerHTML = `₹${total.toLocaleString('en-IN')}`;
-    let totalOrder = parseFloat(subTotal.innerHTML.replace('₹', '').replace(',', '')) + 500; // Delivery charge ₹500
+    let totalOrder = parseFloat(subTotal.innerHTML.replace('₹', '').replace(',', '')) + 0; // Delivery charge ₹500
     document.getElementById("total_order").innerHTML = `₹${totalOrder.toLocaleString('en-IN')}`;
 }
 
@@ -180,12 +180,12 @@ function generateWhatsAppMessage() {
     }, 0);
     
     let totalItems = cart.reduce((sum, product) => sum + product.quantity, 0);
-    let finalTotal = subtotal + 500; // Adding delivery charge ₹500
+    let finalTotal = subtotal + 0; // Adding delivery charge ₹500
     
     message += `📊 *Order Summary:*\n`;
     message += `Total Items: ${totalItems}\n`;
     message += `Subtotal: ₹${subtotal.toLocaleString('en-IN')}\n`;
-    message += `Delivery Charge: ₹500\n`;
+    message += `Delivery Charge: ₹0\n`;
     message += `*Final Total: ₹${finalTotal.toLocaleString('en-IN')}*\n\n`;
     
     // Add customer info if available
