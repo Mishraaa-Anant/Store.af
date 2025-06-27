@@ -1,0 +1,85 @@
+[
+    {
+        "id": 1,
+        "name": "Death Rites",
+        "price": "₹ 449",
+        "images": [
+            "images/Accessories/06.jpg",
+            "images/Accessories/014.jpg"
+        ],
+        "category": "Accessories",
+        "isTrending": true,
+        "description": "Death rites oversized Tshirt(UNISEX)(DTF PRINT)(SIZE:-S.M.L.XL.XXL),Available customized."
+    },
+    {
+        "id": 2,
+        "name": "Billie edition 2-200gsm",
+        "price": "₹ 449",
+        "images": [
+            "images/Accessories/03.jpg",
+            "images/Accessories/07.jpg"
+        ],
+        "category": "Accessories",
+        "isTrending": true,
+        "description": "(UNISEX)(Combined & Bio washed)(SIZE:-M.L)."
+    },
+    {
+        "id": 3,
+        "name": "Drake edition 2-200gsm",
+        "price": "₹ 449",
+        "images": [
+            "images/Accessories/08.jpg",
+            "images/Accessories/011.jpg"
+        ],
+        "category": "Accessories",
+        "description": "Oversized Tshirt(UNISEX)(Combined & Bio washed)(SIZE:-M.L)."
+    },
+    {
+        "id": 4,
+        "name": "Balmain pariss - 200gsm",
+        "price": "₹ 449",
+        "images": [
+            "images/Accessories/04.jpg",
+             "images/Accessories/02.jpg"
+        ],
+        "category": "Accessories",
+        "isTrending": true,
+        "description": "Oversized Tshirt(UNISEX)(Combined & Bio washed)(SIZE:-M.L)."
+    },
+    {
+        "id": 6,
+        "name": "Billie edition 1-200gsm",
+        "price": "₹ 449",
+        "images": [
+            "images/Accessories/01.jpg",
+            "images/Accessories/05.jpg"
+        ],
+        "category": "Accessories",
+        "description": "Oversized Tshirt(UNISEX)(Combined & Bio washed)(SIZE:-M.L)."
+    },
+    {
+        "id": 11,
+        "name": "Drake edition 1-200gsm",
+        "price": "₹ 449",
+        "images": [
+            "images/Accessories/09.jpg",
+             "images/Accessories/010.jpg"
+        ],
+        "category": "Accessories",
+        "isTrending": true,
+        "description": "Oversized Tshirt(UNISEX)(Combined & Bio washed)(SIZE:-M.L)."
+    },
+   
+    {
+        "id": 13,
+        "name": "After hours merch!!",
+        "price": "₹ 699",
+        "images": [
+            "images/Bags/012.jpg",
+            "images/Bags/013.jpg"
+        ],
+        "category": "Bags",
+        "isTrending": true,
+        "description": "(UNISEX)(Combined & Bio washed)(SIZE:-S.M.L)"
+    }
+]
