@@ -111,7 +111,7 @@ function updateTotalPrice() {
         return sum + (price * product.quantity);
     }, 0);
     totalPrice.innerHTML = `₹${total.toLocaleString('en-IN')}`;
-    localStorage.setItem("total price", total + 500); // Delivery charge in INR
+    localStorage.setItem("total price", total + 0); // Delivery charge in INR
     return total;
 }
 
